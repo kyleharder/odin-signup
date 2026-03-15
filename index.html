@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="preconnect" href="https://db.onlinewebfonts.com" crossorigin>
+    <link href="https://db.onlinewebfonts.com/c/3159dc6aa205f50c6997c5100c3873e5?family=Norse-Bold" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="outerbox">
+        <div id="fullform">
+            <div id="leftpane">
+                <div id="leftbanner">
+                    <img src="odin-lined.png"> Kyle
+                </div>
+                <div id="leftfooter">
+                    Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on Unsplash.
+                </div>
+            </div>
+            <div id="rightpane">
+                <form action="#" method="post">
+                    <div id="signupformtop">
+                        <p>
+                            This is not a real online service!
+                            You know you need something like this in your life to help you realize your deepest dreams.
+                            Sign up now to get started.
+                        </p>
+                        <p>You <em>know</em> you want to!</p>
+                    </div>
+                    <div id="servicedescription">
+                        <div class="formheader">
+                            <p><h3>Let's do this!</h3></p>
+                        </div>
+                        <div class="formrow">
+                            <label for="first_name">
+                                First Name
+                                <input type="text" id="first_name" name="first_name">
+                            </label>
+                            <label for="last_name">
+                                Last Name
+                                <input type="text" id="last_name" name="last_name">
+                            </label>
+                        </div>
+                        <div class="formrow">
+                            <label for="emailaddr">
+                                Email
+                                <input type="email" id="emailaddr" name="emailaddr">
+                            </label>
+                            <label for="phone">
+                                Phone
+                                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                            </label>
+                        </div>
+                        <div class="formrow">
+                            <label for="pass">
+                                Password
+                                <input type="password" id="pass" name="pass">
+                            </label>
+                            <label for="conpass">
+                                Confirm Password
+                                <input type="password" id="conpass" name="conpass">
+                            </label>
+                        </div>
+                    </div>
+                    <div id="buttonarea">
+                        <button type="submit">Create Account</button>
+                        <p>Already have an account? <a href="#">Log in</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,159 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+body {
+    margin: 0;
+    background-color: #0e0e0e;
+    display: relative;
+}
+
+/*#outerbox {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}*/
+
+#fullform {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+}
+
+#leftpane {
+    display: flex;
+    flex-direction: column;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 40vw;
+}
+
+#leftbanner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(59, 59, 59, 0.3);
+    width: 100%;
+    height: 15%;
+    font-family: Norse-Bold, sans-serif;
+    color: white;
+    font-size: 7em;
+    margin-top: 40%;
+}
+
+#leftbanner img {
+    max-height: 75%;
+    width: auto;
+}
+
+a:not(#buttonarea a) {
+    text-decoration: none;
+    color: white;
+}
+
+#leftfooter {
+    margin-top: auto;
+    margin-bottom: 15px;
+    color: white;
+    text-align: center;
+}
+
+#rightpane {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #141414;
+    width: 60vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+#signupformtop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    height: 35vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#signupformtop p {
+    font-size: 20pt;
+    font-weight: 600;
+}
+
+#servicedescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #101010;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+}
+
+#buttonarea {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.formrow {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 2em;
+    gap: 70px;
+}
+
+.formheader {
+    margin-left: 2em;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14pt;
+    width: 250px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+    color: #101010;
+    font-size: 20pt;
+    height: 50px;
+    width: 200px;
+}
+
+input {
+    height: 25px;
+    border-radius: 5px;;
+    color: black;
+}
+
+input[type="text"] {
+    padding: 0 0 5px 5px;
+}
+
+input:focus {
+    outline: none;
+    border: 3px rgba(21, 146, 255, 0.627) solid;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+}
+
+input:user-invalid {
+    border-color: rgba(255, 64, 32, 0.8);
+}
